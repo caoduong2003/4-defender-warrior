@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5690d2064f3f9942b6626f0c932a911, type: 3}
+  m_Name: DefenseTurret
+  m_EditorClassIdentifier: 
+  turretCost: 50
+  baseAttackRange: 5
+  baseFireRate: 1
+  baseMaxMP: 3000
+  baseMaxHP: 3000
+  attackRangeMultiplier: 0.1
+  fireRateMultiplier: 0.1
+  maxMPMultiplier: 0.1
+  maxHPMultiplier: 0.1
+  projectilePrefab: {fileID: 8661557369178034711, guid: 903196072107d764d846df85d5459fff, type: 3}
+  specialAbilityGameObject: {fileID: 6448894785914104143, guid: 3076f01a4c49b0141b86e1b062c74d05, type: 3}
+  secondSpecialAbilityGameObject: {fileID: 0}
+  turretPrefab: {fileID: -6208788993159535308, guid: 681cb823e24991e45bbd6bdf69b4418a, type: 3}
+  ghostSprite: {fileID: -1556463978589607206, guid: a72c7e4ffeb0107488a253b14f8459fe, type: 3}
